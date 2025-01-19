@@ -89,7 +89,7 @@
       </div>
       <div style="background-color:rgba(2, 25, 69, 1);">
         
-        <h3 style="margin:-20px"><p style="color:white"><b>Giacomo Criniti</b></p></h3>
+        <h3 style="margin-bottom:-10px"><p style="color:white"><b>Giacomo Criniti</b></p></h3>
         <p style="color:white; margin:-5px"><a href="https://carnegiescience.edu/dr-giacomo-criniti" style="text-decoration:none"><b>Carnegie Postdoctoral Fellow</b></a></p>
         <p style="color:white">Earth and Planets Laboratory <br> Carnegie Science<br>5241 Broad Branch Road NW<br>Washington, DC 20015, USA</p>
         <p style="color:white"></i>gcriniti@carnegiescience.edu</p>
