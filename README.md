@@ -7,7 +7,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Myriad Pro", sans-serif}
 
 .container {
   display: grid;
-  grid-template-columns: 400px 800px;
+  grid-template-columns: 800px 400px;
   padding: 10px;
 }
 .topnav {
@@ -47,15 +47,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Myriad Pro", sans-serif}
   </body>
 
 <div class="container">
-  <div style="text-align:center"> 
-  	<div>
-     <img src="https://i.imgur.com/pb0RlOP.jpg" style="width:300px;  border-radius: 15%;" alt="Avatar" class="center">
-    </div>
-  	<h3 style="margin-bottom:-10px"><p style="color:white"><b>Giacomo Criniti</b></p></h3>
-    <p style="color:white; margin:-5px"><a href="https://carnegiescience.edu/dr-giacomo-criniti" style="text-decoration:none"><b style="color:white">Carnegie Postdoctoral Fellow</b></a></p>
-    <p style="color:white">Earth and Planets Laboratory <br> Carnegie Science<br>5241 Broad Branch Road NW<br>Washington, DC 20015, USA</p>
-    <p style="color:white"></i>gcriniti@carnegiescience.edu</p>
-  </div>
   <div style="text-align:left">
   
    <h2 style="margin-left:14px; margin-bottom:-10px">Academic Positions</h2>    
@@ -107,6 +98,15 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Myriad Pro", sans-serif}
           <td style="width:70%"><b style="font-size:120%">John C. Jamieson Student Paper Award</b><br>American Geophysical Union, Mineral and Rock Physics Section</td>
           </tr>
         </table>
+  </div>
+  <div style="text-align:center"> 
+  	<div>
+     <img src="https://i.imgur.com/pb0RlOP.jpg" style="width:350px;  border-radius: 15%;" alt="Avatar" class="center">
+    </div>
+  	<h3 style="margin-bottom:-10px"><p style="color:white"><b>Giacomo Criniti</b></p></h3>
+    <p style="color:white; margin:-5px"><a href="https://carnegiescience.edu/dr-giacomo-criniti" style="text-decoration:none"><b style="color:white">Carnegie Postdoctoral Fellow</b></a></p>
+    <p style="color:white">Earth and Planets Laboratory <br> Carnegie Science<br>5241 Broad Branch Road NW<br>Washington, DC 20015, USA</p>
+    <p style="color:white"></i>gcriniti@carnegiescience.edu</p>
   </div>
 </div>
 
