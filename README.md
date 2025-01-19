@@ -27,7 +27,7 @@
 
       .topnav {
         overflow: hidden;
-        background-color: #333;
+        background-color: rgba(2, 25, 69, 1);
       }
 
       .topnav a {
@@ -41,12 +41,15 @@
 
       .topnav a:hover {
         background-color: rgba(2, 25, 69, 1);
+        font-weight:bold
       }
 
       .topnav a.active {
         background-color: rgba(2, 25, 69, 1);
         color: white;
       }
+
+      table, th, td 
     </style>
 
   </head>
@@ -69,20 +72,22 @@
   <div class="w3-row-padding">
   
     <!-- Left Column -->
-    <div class="w3-third">
+    <div class="w3-third" >
     
-      <div class="w3-white w3-text-grey w3-card-4" >
-        <div class="w3-display-container">
-          <img src="https://i.imgur.com/pb0RlOP.jpg" style="width:100%" alt="Avatar">
+      <div class="w3-white w3-text-grey" >
+
+        <div class="w3-display-container" style="background-color:rgba(2, 25, 69, 1)">
+          <img src="https://i.imgur.com/pb0RlOP.jpg" style="width:100%;  border-radius: 15%" alt="Avatar">
         </div>
-        <div class="w3-container" style="background-color:rgba(2, 25, 69, 1);">
-          <h3><p style="color:rgba(255, 255, 255,1)"><b>Giacomo Criniti</b></p></h3>
-          <p style="color:rgba(255, 255, 255,1)">Carnegie Postdoctoral Fellow</p>
-          <p style="color:rgba(255, 255, 255,1)">Earth and Planets Laboratory <br> Carnegie Science<br>5241 Broad Branch Road NW, Washington, DC 20015, USA</p>
+        <div class="w3-container" style="background-color:rgba(2, 25, 69, 1); text-align:center">
+          <h3 style="margin:-20px"><p style="color:rgba(255, 255, 255,1)"><b>Giacomo Criniti</b></p></h3>
+          <p style="color:rgba(255, 255, 255,1); margin:-5px"><a href="https://carnegiescience.edu/dr-giacomo-criniti" style="text-decoration:none"><b>Carnegie Postdoctoral Fellow</b></a></p>
+          <p style="color:rgba(255, 255, 255,1)">Earth and Planets Laboratory <br> Carnegie Science<br>5241 Broad Branch Road NW<br>Washington, DC 20015, USA</p>
           <p style="color:rgba(255, 255, 255,1)"></i>gcriniti@carnegiescience.edu</p>
-          <hr>
+          
 
         </div>
+
       </div><br>
 
     <!-- End Left Column -->
@@ -91,25 +96,21 @@
     <!-- Right Column -->
     <div class="w3-twothird" width: 1200px !important>
     
-      <div class="w3-container" style="background-color:rgba(2, 25, 69, 1);"  >
-        <h2 class="w3-text-white w3-padding-16">Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Front End Developer / w3schools.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Web Developer / something.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
-          <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Graphic Designer / designsomething.com</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
-        </div>
+      <div class="w3-container" style="background-color:rgba(2, 25, 69, 1); color:white"  >
+        <h2 style="margin-left:14px; margin-bottom:-10px">Academic Positions</h2>
+          
+        <table style="width:100%; border-spacing:0.8em">
+          <tr>
+            <td style="width:30%; vertical-align:top">Nov 2023 -<br> present</td>
+            <td style="width:70%"><b style="font-size:120%">Carnegie Postdoctoral Fellow</b><br>Earth and Planets Laboratory, Carnegie Science (Whashington, DC, USA)</td>
+          </tr>
+          
+          <tr>
+          <td style="width:30%; vertical-align:top">Oct 2019 -<br> Oct 2023</td>
+          <td style="width:70%"><b style="font-size:120%">Research Associate</b><br>Bayerisches Geoinstitut, University of Bayreuth (Bayreuth, Germany)</td>
+        </tr>
+        </table>
+        
       </div>
 
     <!-- End Right Column -->
