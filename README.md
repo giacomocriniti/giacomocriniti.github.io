@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -103,7 +102,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Myriad Pro", sans-serif}
   	<div>
      <img src="https://i.imgur.com/pb0RlOP.jpg" style="width:350px;  border-radius: 15%;" alt="Avatar" class="center">
     </div>
-  	<h3 style="margin-bottom:-10px"><p style="color:white"><b>Giacomo Criniti</b></p></h3>
+  	<p style="color:white;font-size:150%"><b>Giacomo Criniti</b></p>
     <p style="color:white; margin:-5px"><a href="https://carnegiescience.edu/dr-giacomo-criniti" style="text-decoration:none"><b style="color:white">Carnegie Postdoctoral Fellow</b></a></p>
     <p style="color:white">Earth and Planets Laboratory <br> Carnegie Science<br>5241 Broad Branch Road NW<br>Washington, DC 20015, USA</p>
     <p style="color:white"></i>gcriniti@carnegiescience.edu</p>
@@ -112,5 +111,3 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Myriad Pro", sans-serif}
 
 </body>
 </html>
-
-
