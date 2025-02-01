@@ -3,11 +3,8 @@
 <head>
 
   <meta charset="UTF-8">
-  /*<meta name="description" content="Giacomo Criniti's Webpage">*/
-  /*<meta name="keywords" content="Giacomo Criniti, lower mantle, high pressure, mineral physics, bridgmanite, stishovite, equations of state">*/
-  /*<meta name="author" content="Giacomo Criniti">*/
-  <meta name="viewport" content="width=device-width, intial-scale=1.0;">
-  <title>Giacomo Criniti's Research Webpage</title>
+  <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>Giacomo Criniti Research webpage</title>
   <link rel="stylesheet" href="css/main.css">
 
 <style>
@@ -28,7 +25,7 @@
 
   <header class="header-main">
     <div class="header-main-logo">
-      <img src="images/logo.png" alt="logo" style="height:100%">
+      <img src="images/logo.png" alt="logo">
     </div>
     <nav class="header-main-nav" >
       <ul>
@@ -38,7 +35,7 @@
         <li><a href="publications.html">Publications</a></li>
       </ul>
     </nav>
-    <div class="burger-menu-btn" style="margin-right:30px"></div>
+    <div class="burger-menu-btn" style="margin-right:30px; margin-top: 15px;margin-bottom: 15px;"></div>
   </header>
 
   <main>
@@ -46,7 +43,7 @@
       <div class="container1" style="margin-top:0px">
         <div style="text-align:center;margin-top:0px"> 
           <div>
-          <img src="images/propic1.JPG" style="width:300px;  border-radius: 15%;" alt="Avatar" class="center">
+          <img src="images/propic1.jpg" style="width:300px;  border-radius: 15%;" alt="Avatar" class="center">
           </div>
           <h1 style="font-size:24px">Giacomo Criniti</h1>
           <h4><a href="https://carnegiescience.edu/dr-giacomo-criniti" style="text-decoration-color:white; color:white;">Carnegie Postdoctoral Fellow</a></h4>
@@ -55,20 +52,38 @@
         </div>
         <div style="text-align:left">
           <h2 style="text-align:center;"><b>Welcome!</b></h2>
-          <h4 align=justify style="padding:10px">I am an experimental mineral physicist interested in understanding the chemical and mineralogical composition of the Earth&prime;s deep interior, 
-            and how materials from the Earth&prime;s surface are recycled into the deep mantle. I conduct high-pressure and high-temperature experiments in the 
-            multi-anvil press and in the diamond anvil cell to investigate the physical properties, crystal chemistry, and phase equilibria of nominally anhydrous 
-            (e.g., olivine, ringwoodite, stishovite, bridgmanite, CaFe<sub>2</sub>O<sub>4</sub>-type aluminous phase) and hydrous (dense hydrous silicates and aluminum oxyhydroxides) mineral phases. 
-            A combination of diffraction (single-crystal and powdered samples, in house and at synchrotrons) and spectroscopic techniques (Raman, infrared, 
-            M&ouml;ssbauer spectroscopy, Brillouin scattering) both at ambient conditions and in situ at high pressures and temperatures, allows me to determine mineral
-            properties and model the behavior of candidate mantle rocks over pressure and temperature ranges relevant to planetary interiors.</h4>
+          <h4 align=justify style="padding:10px">I am a mineral physicist interested in understanding the chemical and mineralogical composition of the Earth&prime;s deep interior, and how materials from the Earth&prime;s surface are recycled into the deep mantle. I conduct experiments in the laboratory using the multi-anvil press and the diamond anvil cell, that capable of generating the extreme conditions of high pressure and temperature of Earth and planetary interiors. I combine these techniques with X-ray diffraction and spectroscopic diagnostics, both in the laboratory and at synchrotron facilities, to determine the structure, composition, phase equilibria, and physical properties of mineral phases that are expected to comprise mantle rocks. I am also interested in determining the effect of volatiles, such as H, on the structural and physical properties of nominally anhydrous minerals. 
+          In this way, I am able to model the mineralogical composition and seismic peroperties of candidate mantle rocks as a function of pressure, temperature, and bulk chemical composition, which I use interpret seismic one- and three-dimensional seismic models.</h4>
         </div>
       </div>
     </div>
   </main>
-  <footer align=right style="margin-right: 80px;">Giacomo Criniti - 2025</footer>
 
-  <script src="js/main.js"></script>
 
+  <button onclick="topFunction()" id="arrow-up" title="Go to top">
+    <div class="arrow-up-btn"><img src="images/arrowup.png" alt="arrowup"></div>
+  </button>
 </body>
+
+<script>
+let mybutton = document.getElementById("arrow-up");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  mybutton.style.display = "block";
+} else {
+  mybutton.style.display = "none";
+}
+}
+
+function topFunction() {
+document.body.scrollTop = 0;
+document.documentElement.scrollTop = 0;
+}
+</script>
+
+<script src="js/main.js"></script>
+
 </html>
