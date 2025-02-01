@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, intial-scale=1.0;">
-    <title>Giacomo Criniti Portfolio</title>
+    <title>Giacomo Criniti Research webpage</title>
     <link rel="stylesheet" href="css/main.css">
 
 <style>
@@ -14,29 +14,29 @@
 <body style="background-color:rgba(36, 48, 71); color:white">
 
 
-    <nav class="burger-menu">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="cv.html">Curriculum Vitae</a></li>
-          <li><a href="publications.html">Publications</a></li>
-        </ul>
-      </nav>
-    
-      <header class="header-main">
-        <div class="header-main-logo">
-          <img src="images/logo.png" alt="logo" style="height:100%">
-        </div>
-        <nav class="header-main-nav" >
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="research.html">Research</a></li>
-            <li><a href="cv.html">Curriculum Vitae</a></li>
-            <li><a href="publications.html">Publications</a></li>
-          </ul>
-        </nav>
-        <div class="burger-menu-btn" style="margin-right:30px"></div>
-      </header>
+  <nav class="burger-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="cv.html">Curriculum Vitae</a></li>
+      <li><a href="publications.html">Publications</a></li>
+    </ul>
+  </nav>
+
+  <header class="header-main">
+    <div class="header-main-logo">
+      <img src="images/logo.png" alt="logo">
+    </div>
+    <nav class="header-main-nav" >
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="cv.html">Curriculum Vitae</a></li>
+        <li><a href="publications.html">Publications</a></li>
+      </ul>
+    </nav>
+    <div class="burger-menu-btn" style="margin-right:30px; margin-top: 15px;margin-bottom: 15px;"></div>
+  </header>
 
     <main>
         <container2>
@@ -44,7 +44,30 @@
         </container2>
     </main>
 
-
-    <script src="js/main.js"></script>
+    <button onclick="topFunction()" id="arrow-up" title="Go to top">
+      <div class="arrow-up-btn"><img src="images/arrowup.png" alt="arrowup"></div>
+    </button>
 </body>
+
+<script>
+  let mybutton = document.getElementById("arrow-up");
+  
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+  }
+  
+  function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+  }
+  </script>
+  
+  <script src="js/main.js"></script>
+
 </html>
