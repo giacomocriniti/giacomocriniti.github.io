@@ -14,3 +14,32 @@ burgerBtn.onclick = function () {
         isBurgerOpen = false;
     }
 }
+
+const header = document.querySelector(".header-main");
+let lastScrollY = window.scrollY;
+
+window.addEventListener("scroll", () => {
+    if (lastScrollY < window.scrollY) {
+        if (!isBurgerOpen) {
+            header.classList.add("nav--hidden");
+        } else {
+            header.classList.remove("nav--hidden");
+        }
+    } else {
+        header.classList.remove("nav--hidden");
+    }
+    lastScrollY = window.scrollY;
+});
+
+// reverse order for publications
+var lists = document.querySelectorAll('.rev-ord');
+
+lists.forEach(function(list) {
+    var liiList = list.getElementsByClassName("lii");
+    var npubl = liiList.length;
+
+
+    for (let i = 0; i < liiList.length; i++) {
+        liiList[i].setAttribute('data-counter', npubl - i); 
+    }
+});
