@@ -17,7 +17,6 @@ body, p {
 p1 {
     font-size: 18px;
     font-weight: 300;
-    z-index: 1000;
     margin: 0;
     padding: 10px 0;
 }
