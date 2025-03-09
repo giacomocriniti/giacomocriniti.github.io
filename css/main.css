@@ -10,8 +10,6 @@ body, p {
     z-index: 1000;
     margin: 0;
     padding: 10px 0;
-    --nav-height: 60px;
-    padding-top: var(--nav-height);
 }
 
 p1 {
@@ -163,6 +161,34 @@ h4{
     margin-left: -2em;
 }
 
+a {
+    text-decoration-color:white; 
+    color:white;
+    word-wrap: break-word;      /* IE 5.5-7 */
+    white-space: -moz-pre-wrap; /* Firefox 1.0-2.0 */
+    white-space: pre-wrap;      /* current browsers */
+}
+
+
+ol {
+    list-style-type: none;
+    counter-reset: item;
+}
+
+ol li{
+    padding-bottom: 1 em;
+    margin-left: 2 em;
+    vertical-align: top
+  }
+
+ol li::before {
+    display: inline-block;
+    content: "[" counter(item) "]";
+    counter-increment: item;
+    width: 2em;
+    margin-left: -2em;
+}
+
 .burger-menu, .burger-menu-btn {
     display: none;
 }
@@ -218,6 +244,13 @@ h4{
     
     h4{
         font-size: 18px;
+    }
+
+    p1 {
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+        padding: 10px 0;
     }
 
     .header-main{
