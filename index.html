@@ -28,7 +28,7 @@
     <div class="header-main-logo">
       <img src="images/logo.png" alt="logo">
     </div>
-    <nav class="header-main-nav" >
+    <nav class="header-main-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="research.html">Research</a></li>
@@ -40,7 +40,7 @@
   </header>
 
   <main>
-    <div class="wrapper-main;" style="margin-top:100px">
+    <div class="wrapper-main;" style="margin-top:100px;margin-bottom:100px">
       <div class="container1" style="margin-top:0px">
         <div style="text-align:center;margin-top:0px"> 
           <div>
@@ -62,7 +62,7 @@
 
 
   <button onclick="topFunction()" id="arrow-up" title="Go to top">
-    <div class="arrow-up-btn"><img src="images/arrowup.png" alt="arrowup"></div>
+    <div class="arrow-up-btn"><img src="images/arrowup2.png" alt="arrowup"></div>
   </button>
 </body>
 
@@ -80,8 +80,10 @@ if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 }
 
 function topFunction() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 }
 </script>
 
