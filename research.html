@@ -94,9 +94,9 @@
       </container2>
   </main>
 
-    <button onclick="topFunction()" id="arrow-up" title="Go to top">
-      <div class="arrow-up-btn"><img src="images/arrowup.png" alt="arrowup"></div>
-    </button>
+  <button onclick="topFunction()" id="arrow-up" title="Go to top">
+    <div class="arrow-up-btn"><img src="images/arrowup2.png" alt="arrowup"></div>
+  </button>
 </body>
 
 <script>
@@ -113,8 +113,10 @@
   }
   
   function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   }
   </script>
   
