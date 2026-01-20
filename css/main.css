@@ -1,5 +1,5 @@
 html,body,h1,h2,h3,h4,h5,h6,table {
-    font-family: Verdana;
+    font-family: 'Verdana', Roboto, sans-serif;
     color: white;
     vertical-align: baseline;
 }
@@ -389,6 +389,7 @@ ol li::before {
         margin-left: -2em;
     }
 }
+
 
 
 
