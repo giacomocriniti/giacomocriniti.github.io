@@ -158,8 +158,8 @@ h4{
 .rev-ord .lii::before {
     display: inline-block;
     content: "[" attr(data-counter) "]";
-    width: 2em;
-    margin-left: -2em;
+    width: 3em;
+    margin-left: -3em;
 }
 
 a {
@@ -389,6 +389,7 @@ ol li::before {
         margin-left: -2em;
     }
 }
+
 
 
 
