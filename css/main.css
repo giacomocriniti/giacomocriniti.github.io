@@ -1,5 +1,5 @@
 html,body,h1,h2,h3,h4,h5,h6,table {
-    font-family: Myriad Pro, sans-serif;
+    font-family: Myriad Pro, Verdana;
     color: white;
     vertical-align: baseline;
 }
@@ -389,4 +389,5 @@ ol li::before {
         margin-left: -2em;
     }
 }
+
 
