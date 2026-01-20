@@ -94,7 +94,7 @@ h4{
     width: 500px;
     height: 100%;
     float: left;
-    padding-right: 20px;
+    padding-right: 40px;
   }
 
 .header-main-logo {
@@ -389,5 +389,6 @@ ol li::before {
         margin-left: -2em;
     }
 }
+
 
 
