@@ -111,7 +111,7 @@ h4{
     height: 100%;
     float: left;
     display: flex;
-    padding-right: 30px;
+    padding-right: 100px;
 }
 
 .header-main-nav ul {
@@ -389,6 +389,7 @@ ol li::before {
         margin-left: -2em;
     }
 }
+
 
 
 
